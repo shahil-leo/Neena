@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+                    /* Heading no.1 for title */
+ .big-heading{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: white;
+  }
+
+h1,h1,h3,h4,h5,h6{
+    font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+                       /* section */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+.white-section{ 
+    background-color: #fff;
+
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  font-family: "Montserrat"
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 40px;
+  font-weight: 900;
+  padding-right: 35%;
+}
+
+.navbar-nav {
+  margin-left: 150px;
+}
+
+                        /* buttons download */
+.title-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 2;
+  right: 30%;
+}
+
+                          /* features */
+
+#features {
+  position: relative;
+  z-index: 3;
+}
+
+.features-text{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5; 
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+                         /* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0)
+}
+
+
+.testi-img {
+  width: 10%;
+  border-radius: 120%;
+  margin-top: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+                          /* pricing */
+#pricing {
+  padding: 150px;
+}
+.pricing-text{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text-3{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5; 
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+ 
+                   /* footer */
+#footer {
+  background-color: #fff;
+  padding: 4% 12%;
+}
+
+.footer-icon {
+  padding: 2%;
+}
+          
+                    /*for personal advertisement */
+#shahil-dev {
+  color: #000;
+  font-size: medium;
+}
+
+                       /* media querries */
+@media(max-width:980px) {
+    #title {
+      text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+      }
+}
